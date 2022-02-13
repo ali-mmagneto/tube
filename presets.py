@@ -12,7 +12,7 @@ class Presets(object):
     """
 
     OPTIONS_TXT = "<code>🔰 Seçeneğini Seç 🔰</code>"
-    WELCOME_MSG = "**Merhaba**...</code><b>{}</b> 👋\n<code>Ben Bir Youtube İndiriciyim. Satır İçi Aramada Videoları Arayabilirsin Linki Bana Atabilirsin Bende Vidyoyu indiririm."
+    WELCOME_MSG = "Merhaba...</code><b>{}</b> 👋\n<code>Ben Bir Youtube İndiriciyim. Satır İçi Aramada Videoları Arayabilirsin Linki Bana Atabilirsin Bende Vidyoyu indiririm."
     RESULTS_TXT = "👀 Sonuçlar:"
     NO_RESULTS = "❌ Sonuç Yok"
     DESCRIPTION = "Süre: {} || {}"
