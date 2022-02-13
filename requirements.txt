@@ -4,7 +4,7 @@ pyrogram
 TgCrypto
 # --- For-YTDL. --------------- #
 youtube-search-python
-youtube-dl
+git+https://github.com/yt-dlp/yt-dlp
 pytube
 hachoir
 wget
