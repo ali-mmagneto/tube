@@ -12,7 +12,7 @@ class Presets(object):
     """
 
     OPTIONS_TXT = "<code>🔰 Seçeneğini Seç 🔰</code>"
-    WELCOME_MSG = "<code>Merhaba...</code><b>{}</b> 👋\n<code>Ben Bir Youtube İndiriciyim." \
+    WELCOME_MSG = "<code>Merhaba...</code><b>{}</b> 👋\n<code>Ben Bir Youtube İndiriciyim."
                   "Satır İçi Aramada Videoalrı Arayabilirsin Linki Bana Atabilirsin Bende Vidyoyu indiririm.</code>"
     RESULTS_TXT = "👀 Sonuçlar:"
     NO_RESULTS = "❌ Sonuç Yok"
@@ -27,10 +27,10 @@ class Presets(object):
     DEV_LINK = "https://t.me/mmagneto"
     DEV_DESCRIPTION = "Adım: Mmagneto | Telegram"
     SHARE_BUTTON_TEXT = "Merhaba.. 👋\n@{username}\nAramak ve indirme için youTube Videolarını Satır İçi Modu Kullanabilirsin"
-    SAVED_THUMB = "<b>✅ Thumbnail Kaydedildi</b>\n<code>Birdahaki Yüklemede Kullanılıcak " \
+    SAVED_THUMB = "<b>✅ Thumbnail Kaydedildi</b>\n<code>Birdahaki Yüklemede Kullanılıcak"
                   "silene kadar böyle olucak!</code> "
     WAIT_MESSAGE = "<code>Işleniyor...</code>"
-    THUMB_CAPTION = "<code>Bu resim geçerli küçük resminizdir. " \
+    THUMB_CAPTION = "<code>Bu resim geçerli küçük resminizdir."
     NO_THUMB = "❌ Yerelinizde küçük resim bulamıyorum, lütfen ayarlamak için bir resim yükleyin.."
     DEL_THUMB_CNF = "Thumbnail Başarı İle Silindi ✅"
     LINK_ERROR = "<b>Error : </b>\n\n<code>İşlenirken Sorun Oluştu!\nSonra Tekrar Dene..</code>"
@@ -44,7 +44,7 @@ class Presets(object):
     UPLOAD_START = "⬆️ <code>Yükleniyor...</code>"
     NOT_DOWNLOADABLE = "<b>Bu Link İndirilebilir Değil!</b> 🙄"
     CANCEL_PROCESS = "<b>İlerleme Başarı İle İptal Edildi</b>  ✅"
-    SEND_TEXT = "<b>İşleniyor...</b>\n<i>Bu ileti, yayın tamamlandığında silincek " \
+    SEND_TEXT = "<b>İşleniyor...</b>\n<i>Bu ileti, yayın tamamlandığında silincek" 
                 "finished</i> "
     REPLY_ERROR = "<i>Use this command as a replay to any telegram message with out any spaces.</i>"
     USERS_LIST = "<b>Total: {}</b>\n\nSubscribers - {}\nBlocked / Deleted - {}"
