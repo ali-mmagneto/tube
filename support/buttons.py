@@ -12,51 +12,51 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 # Buttons used
 start_btn = [
     [
-        InlineKeyboardButton('🎖 GitHub', url=Presets.SOURCE_URL),
-        InlineKeyboardButton('🔰 Support', url=Presets.SUPPORT_URL)
+        InlineKeyboardButton('🎖 Geliştirici', url=Presets.SOURCE_URL),
+        InlineKeyboardButton('🔰 Destek', url=Presets.SUPPORT_URL)
     ],
     [
         InlineKeyboardButton('📸 Thumbnail', callback_data='view_btn'),
-        InlineKeyboardButton('❓ Help', callback_data='help_btn')
+        InlineKeyboardButton('❓ Yardım', callback_data='help_btn')
     ],
     [
-        InlineKeyboardButton('❌ Close', callback_data='close_btn'),
-        InlineKeyboardButton('🔎 Search Inline', switch_inline_query_current_chat='')
+        InlineKeyboardButton('❌ Kapat', callback_data='close_btn'),
+        InlineKeyboardButton('🔎 Satır İçi Arama', switch_inline_query_current_chat='')
     ]
     ]
 
 
 del_thumb = [
             [
-                InlineKeyboardButton("⛔️ DEL THUMB", callback_data="thumb_del_conf_btn"),
-                InlineKeyboardButton("⬅️ Back", callback_data="a_back_btn")
+                InlineKeyboardButton("⛔️ THUMB'ı Sil", callback_data="thumb_del_conf_btn"),
+                InlineKeyboardButton("⬅️ Geri", callback_data="a_back_btn")
             ]
             ]
 
 
 back_button = [
               [
-                    InlineKeyboardButton('⬅️ Back', callback_data='back_btn')
+                    InlineKeyboardButton('⬅️ Geri', callback_data='back_btn')
               ]
               ]
 
 close_button = [
                [
-                    InlineKeyboardButton('❌ Close', callback_data='close_btn'),
-                    InlineKeyboardButton('🏠 Home', callback_data='home_btn')
+                    InlineKeyboardButton('❌ Kapat', callback_data='close_btn'),
+                    InlineKeyboardButton('🏠 Ana Sayfa', callback_data='home_btn')
                ]
                ]
 
 cancel_button = [
                 [
-                    InlineKeyboardButton('❌ Cancel ❌', callback_data='cancel_btn')
+                    InlineKeyboardButton('❌ İptal ❌', callback_data='cancel_btn')
                 ]
                 ]
 
 prompt_thumb_btn = [
                    [
-                        InlineKeyboardButton('👍🏻 Yes', callback_data='set_thumb_btn'),
-                        InlineKeyboardButton('👎🏻 No', callback_data='close_btn')
+                        InlineKeyboardButton('👍🏻 Evet', callback_data='set_thumb_btn'),
+                        InlineKeyboardButton('👎🏻 Hayır', callback_data='close_btn')
                    ]
                    ]
 
@@ -80,8 +80,8 @@ def get_reply_markup(username):
 def get_chat_invite_link(link):
     buttons = [
               [
-                  InlineKeyboardButton('❌ Close', callback_data='close_btn'),
-                  InlineKeyboardButton('Join Now', url='{}'.format(link))
+                  InlineKeyboardButton('❌ Kapat', callback_data='close_btn'),
+                  InlineKeyboardButton('Şimdi Katıl', url='{}'.format(link))
               ]
               ]
     reply_markup_invite_link = InlineKeyboardMarkup(buttons)
@@ -91,8 +91,8 @@ def get_chat_invite_link(link):
 def get_public_chat_link(username):
     buttons = [
               [
-                  InlineKeyboardButton('❌ Close', callback_data='close_btn'),
-                  InlineKeyboardButton('Join Now', url='https://t.me/{}'.format(username))
+                  InlineKeyboardButton('❌ Kapat', callback_data='close_btn'),
+                  InlineKeyboardButton('Şimdi Katıl', url='https://t.me/{}'.format(username))
               ]
               ]
     reply_markup_public_url = InlineKeyboardMarkup(buttons)
