@@ -17,7 +17,7 @@ class Presets(object):
     RESULTS_TXT = "👀 Sonuçlar:"
     NO_RESULTS = "❌ Sonuç Yok"
     DESCRIPTION = "Süre: {} || {}"
-    NOT_AUTH_TXT = "<b>Error : </b>\n\n<code>Bu botu kullanma yetkiniz yok.</code>"
+    NOT_AUTH_TXT = "<b>Error : </b>\n\n<code>Bu botu kullanma yetkiniz yok."
     DEFAULT_TITLE = "Destek"
     DEFAULT_THUMB_URL = "https://image.flaticon.com/icons/png/512/25/25231.png"
     DEFAULT_LINK = "https://t.me/mmagneto3"
